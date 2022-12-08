@@ -53,6 +53,27 @@ def change_colour():
     current_colour = random_colour
     message(current_colour, turtle_icon.xcor(), turtle_icon.ycor())
 
+#Creating the directions and speed of the turtle pen
+def up():#The speed of how fast the pen will go when going up
+    turtle_icon.seth(270)
+    turtle_icon.forward(100)
+
+
+def down():#The speed of how fast the pen will go when going doown
+    turtle_icon.seth(270)
+    turtle_icon.forward(100)
+
+def left():#The speed of how fast the pen will go to the left
+    turtle_icon.seth(180)
+    turtle_icon.forward(100)
+
+def right():#The speed of how fast the pen will go to the right 
+    turtle_icon.seth(0)
+    turtle_icon.forward(100)
+
+
+
+
 
 
 

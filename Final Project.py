@@ -38,5 +38,31 @@ def message(current_colour, x, y):
     turtle_icon.pendown()
 
 #The purpose of this function is to change colours from the list above randomly
+def change_colour():
+    random_colour = random.choice(colours)
+    colour1 = (random_colour, random_colour)
+    colour2 = turtle_icon.color()
+
+    while colour1 == colour2:
+        random_colour = random.choice(colours)
+        colour1 = (random_colour, random_colour)
+        colour2 = turtle_icon.color()
+
+#The colour will be changed to a random colour 
+    turtle_icon.color(random_colour)
+    current_colour = random_colour
+    message(current_colour, turtle_icon.xcor(), turtle_icon.ycor())
+
+
+
+
+
+
+
+
+
+
+
+
 
 

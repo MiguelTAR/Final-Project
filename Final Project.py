@@ -71,6 +71,24 @@ def right():#The speed of how fast the pen will go to the right
     turtle_icon.seth(0)
     turtle_icon.forward(100)
 
+#The dragging begins start the drawing
+def drag(x, y):
+    turtle_icon.pendown()
+    turtle_icon.ondrag(None)
+    turtle_icon.seth(turtle_icon.towards(x, y))
+    turtle_icon.goto(x, y)
+    turtle_icon.ondrag(drag)
+
+#When the user uses the left click on the mouse to drag then the pen will start drawing
+def draw_screen(x,y):
+    turtle_icon.penup()
+    turtle_icon.setpos(x, y)
+    turtle_icon.pendown()
+
+
+
+
+
 
 
 

@@ -85,7 +85,7 @@ def drag(x, y):
     turtle_icon.ondrag(drag)
 
 #when the user right clicks it will clear the screen and start over
-def clear_screen():
+def clear_screen(x, y):
     turtle_icon.clear()
     message(current_colour, turtle_icon.xcor(), turtle_icon.ycor())
 

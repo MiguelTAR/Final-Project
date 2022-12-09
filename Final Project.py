@@ -1,7 +1,7 @@
 #Miguel Tarazona 
 #Final Project
 #The purpose: To create paint
-#Professor: 2022-12-07
+#Professor: William Cober 
 #Due Date: 2022-12-10
 #Reference link #1: https://docs.python.org/3/library/turtle.html  
 #Reference link #2: https://youtu.be/YdkcpdMifpA  

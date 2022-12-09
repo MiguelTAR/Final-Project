@@ -30,9 +30,9 @@ def message(current_colour, x, y):
     style = ('Courier', 10, 'bold')
     turtle_icon.color("black")
     turtle_icon.penup()
-    turtle_icon.setpos(-350, 200)
+    turtle_icon.setpos(-350, 300)
     turtle_icon.write("Click to move the mouse and drag to draw. Right-click to clear.", font=style)
-    turtle_icon.setpos(-350, 180)
+    turtle_icon.setpos(-350, 270)
     turtle_icon.write("Press 'c' to change colour, 's' to stamp, and use the arorow keys to draw a straight line", font=style)
   
     #The texture of the pen
